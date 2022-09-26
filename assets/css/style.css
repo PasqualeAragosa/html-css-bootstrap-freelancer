@@ -1,0 +1,23 @@
+/* #region Common */
+:root {
+    --bs-primary: #1ABC9C;
+    --bs-secondary: #2C3E50;
+    --bs-accenture: #333333;
+    --bs-secondary-light: #3A546D;
+    --bs-light: #FFFFFF;
+}
+/* #endregion Common */
+
+/* #region Debug */
+.debug .container-fluid {
+    background-color: var(--bs-secondary);
+    height: 100px;
+}
+
+.debug .logo, 
+.debug .menu {
+    background-color: red;
+    height: 60px;
+    width: 120px;
+}
+/* #region Debug */
