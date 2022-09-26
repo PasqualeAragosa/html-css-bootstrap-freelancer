@@ -9,15 +9,4 @@
 /* #endregion Common */
 
 /* #region Debug */
-.debug .container-fluid {
-    background-color: var(--bs-secondary);
-    height: 100px;
-}
-
-.debug .logo, 
-.debug .menu {
-    background-color: red;
-    height: 60px;
-    width: 120px;
-}
 /* #region Debug */
