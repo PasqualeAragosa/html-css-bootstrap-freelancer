@@ -9,7 +9,6 @@
 
 img {
     max-width: 100%;
-    width: 200px;
 }
 
 .jumbotron,
@@ -24,6 +23,18 @@ img {
     background-color: var(--bs-light);
     color: var(--bs-accenture);
 }
+
+.line {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid var(--bs-light);
+    border-radius: 1rem;
+}
+
+.border_radius {
+    border-radius: 1rem;
+}
+
 /* #endregion Common */
 
 /* #region Debug */
@@ -58,11 +69,14 @@ nav {
 /* #endregion Header */
 
 /* #region Main */
-.line {
-    display: inline-block;
-    width: 100px;
-    border: 1px solid var(--bs-light);
-    border-radius: 1rem;
-} 
+.jumbotron img {
+    width: 200px;
+}
+
+.portfolio .line {
+    border: 1px solid var(--bs-accenture);
+}
+
+
 /* #enderegion Main */
 /* #endregion Body */
