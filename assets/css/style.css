@@ -27,8 +27,18 @@ img {
 .line {
     display: inline-block;
     width: 100px;
-    border: 1px solid var(--bs-light);
     border-radius: 1rem;
+}
+
+.jumbotron .line,
+.about .line,
+.info_bobox .line {
+    border: 1px solid var(--bs-light);
+}
+
+.portfolio .line, 
+.contact .line {
+    border: 1px solid var(--bs-accenture);
 }
 
 .border_radius {
@@ -77,6 +87,11 @@ nav {
     border: 1px solid var(--bs-accenture);
 }
 
+.download button {
+    color: var(--bs-light);
+    border-color: var(--bs-light);
+    pointer-events: none;
+}
 
 /* #enderegion Main */
 /* #endregion Body */
