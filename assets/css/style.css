@@ -6,6 +6,10 @@
     --bs-secondary-light: #3A546D;
     --bs-light: #FFFFFF;
 }
+
+img {
+    max-width: 100%;
+}
 /* #endregion Common */
 
 /* #region Debug */
@@ -22,7 +26,7 @@
 .debug .jumbotron {
     height: 450px;
 }
-/* #region Debug */
+/* #endregion Debug */
 
 /* #region Body */
 /* #region Header */
@@ -33,5 +37,13 @@ nav {
 .nav-link {
     color: var(--bs-light);
 }
+
+.navbar-toggler {
+    border: var(--bs-border-width) solid var(--bs-light);
+}
 /* #endregion Header */
+
+/* #region Main */
+
+/* #enderegion Main */
 /* #endregion Body */
