@@ -43,6 +43,11 @@ img {
 .border_radius {
     border-radius: 1rem;
 }
+
+.about .container ,
+.contact .container {
+    padding: 0 10rem;
+}
 /* #endregion Common */
 
 /* #region Debug */
@@ -62,8 +67,9 @@ img {
 /* #endregion Debug */
 
 /* #region Body */
+
 /* #region Header */
-nav {
+#site_header {
     background-color: var(--bs-secondary);
 }
 
@@ -99,7 +105,7 @@ nav {
     background-color: var(--bs-primary);
     border-color: var(--bs-primary);
 }
-/* #enderegion Main */
+/* #endregion Main */
 
 /* #region Footer */
 .info_box {
@@ -128,4 +134,5 @@ nav {
     color: var(--bs-light);
 }
 /* #endregion Footer */
+
 /* #endregion Body */
