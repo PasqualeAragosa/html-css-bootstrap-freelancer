@@ -12,8 +12,7 @@ img {
 }
 
 .jumbotron,
-.about,
-.info_bobox {
+.about {
     background-color: var(--bs-primary);
     color: var(--bs-light);
 }
@@ -44,7 +43,6 @@ img {
 .border_radius {
     border-radius: 1rem;
 }
-
 /* #endregion Common */
 
 /* #region Debug */
@@ -93,5 +91,41 @@ nav {
     pointer-events: none;
 }
 
+.contact .list-group-item {
+    padding: 1rem 0;
+}
+
+.send button {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
 /* #enderegion Main */
+
+/* #region Footer */
+.info_box {
+    background-color: var(--bs-secondary-light);
+    color: var(--bs-light);
+}
+
+.social span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 0.5rem;
+    border: 1px solid var(--bs-light);
+    border-radius: 50%;
+}
+
+.freelancer a {
+    color: var(--bs-primary);
+    text-decoration: none;
+}
+
+.copy {
+    background-color: var(--bs-secondary);
+    color: var(--bs-light);
+}
+/* #endregion Footer */
 /* #endregion Body */

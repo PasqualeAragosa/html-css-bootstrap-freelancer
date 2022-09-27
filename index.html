@@ -95,7 +95,7 @@
             <!-- /.container -->
         </section>
         <!-- /.portfolio -->
-        <section class="about pb-5">
+        <section class="about pt-4 pb-5">
             <h2 class=" text-center text-uppercase pt-2">About</h2>
             <div class="divider d-flex align-items-center justify-content-center pt-2 pb-4">
                 <div class="line"></div>
@@ -127,7 +127,7 @@
             <!-- /.download -->
         </section>
         <!-- /.about -->
-        <section class="contact pb-5">
+        <section class="contact pt-4 pb-5">
             <h2 class=" text-center text-uppercase pt-2">Contact Me</h2>
             <div class="divider d-flex align-items-center justify-content-center pt-2 pb-4">
                 <div class="line"></div>
@@ -138,10 +138,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="top_title"></div>
-                        <!-- /.title -->
-                        <div class="details"></div>
-                        <!-- /.details -->
+                        <div class="details mb-5">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Name</li>
+                                <li class="list-group-item">Email Address</li>
+                                <li class="list-group-item">Phone Number</li>
+                                <li class="list-group-item">Message</li>
+                            </ul>
+                        </div>
+                        <!-- details -->
+                        
+                        <div class="send">
+                            <hr>
+                            <button type="button" class="btn btn-success">Send</button>
+                        </div>
+                        <!-- /.send -->
                     </div>
                     <!-- /.col -->
                 </div>
@@ -153,19 +164,45 @@
     </main>
     <!-- /#site_main -->
     <footer id="site_footer">
-        <section class="info_box">
+        <section class="info_box py-5">
             <div class="container">
-                <div class="row">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
                     <div class="col">
-                        <div class="address"></div>
+                        <div class="address text-center py-3">
+                            <h4 class="text-uppercase">Location</h4>
+                            <p>
+                                2215 John Daniel Drive Clark, MO 54243
+                            </p>
+                        </div>
                     </div>
                     <!-- /.col -->
                     <div class="col">
-                        <div class="social"></div>
+                        <div class="around text-center py-3">
+                            <h4 class="text-uppercase">Around the web</h4>
+                            <div class="social d-flex justify-content-center">
+                                <span>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span>                                    
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </span>
+                                <span>                                    
+                                    <i class="fa-brands fa-twitter"></i>
+                                </span>
+                                <span>                                    
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </span>
+                            </div>
+                        </div>
                     </div>
                     <!-- /.col -->
                     <div class="col">
-                        <div class="freelancer"></div>
+                        <div class="freelancer text-center py-3">
+                            <h4 class="text-uppercase">Around the web</h4>
+                            <p>
+                                Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>
+                            </p>
+                        </div>
                     </div>
                     <!-- /.col -->
                 </div>
@@ -174,7 +211,9 @@
             <!-- /.container -->
         </section>
         <!-- /.info_box -->
-        <section class="copy text-center"></section>
+        <section class="copy text-center py-4">
+            <h6>Copyright &copy; Your Website 2019</h6>
+        </section>
         <!-- /.copy -->
     </footer>
     <!-- /#site_footer -->
