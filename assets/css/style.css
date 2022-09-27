@@ -9,4 +9,29 @@
 /* #endregion Common */
 
 /* #region Debug */
+.debug [class^="col"] {
+    background-color: red;
+    border: 1px solid;
+    height: 240px;
+}
+
+.debuh header {
+    height: 80px;
+}
+
+.debug .jumbotron {
+    height: 450px;
+}
 /* #region Debug */
+
+/* #region Body */
+/* #region Header */
+nav {
+    background-color: var(--bs-secondary);
+}
+
+.nav-link {
+    color: var(--bs-light);
+}
+/* #endregion Header */
+/* #endregion Body */
